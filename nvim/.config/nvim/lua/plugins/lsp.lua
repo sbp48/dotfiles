@@ -49,7 +49,7 @@ return {
           --  Most Language Servers support renaming across files, etc.
           map('<leader>rn', vim.lsp.buf.rename, '[R]e[n]ame')
 
-          map('<leader>e', vim.diagnostic.open_float, 'Show diagnostic [E]rror')
+          map('<leader>d', vim.diagnostic.open_float, 'Show diagnostic [E]rror')
 
           -- Execute a code action, usually your cursor needs to be on top of an error
           -- or a suggestion from your LSP for this to activate.
